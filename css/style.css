@@ -15,8 +15,17 @@ header div {
     margin: 2em 1em 1em;
 }
 
-main h1 {
-    font-size: 3em;
+.container {
+    margin: 1%;
+}
+
+.container section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container h1 {
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -27,4 +36,42 @@ a {
 
 .article-author {
     font-size: 1.2em;
+    color: grey;
+}
+
+.article-date {
+    font-size: 0.8em;
+    color: grey;
+}
+
+.pics {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 0.8em;
+}
+
+
+.highlight {
+    background-color: yellow;
+}
+
+li {
+    margin-left: 1em;
+}
+
+table {
+    border: none;
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+    font-weight: bold;
+}
+.col1,.col2 {
+    width: 20%;
+}
+
+tbody > tr:nth-of-type(odd) {
+ background-color: #b1e5f2;
 }
