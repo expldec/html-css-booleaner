@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-bonus.css">
     <title>The Booleaner</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div>
             <img id="logo" src="img/logo.svg" alt="The Booleaner">
         </div>
     </header>
+    <!-- Fine header -->
 
     <main>
         <div class="container">
+            <!-- Inizio articolo -->
             <section>
                 <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
                 <div class="article-author">Scritto da <a href="#">The Booleaner</a></div>
@@ -33,6 +36,9 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="highlight">Voluptate provident facere perferendis</span>, deserunt ipsum illo? Assumenda consequatur doloribus vitae incidunt placeat animi officiis necessitatibus a, nostrum odio. Cupiditate, error alias.
                 </div>
             </section>
+            <!-- fine articolo -->
+
+            <!-- inizio sezione con elenco -->
             <section>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt, error repellendus sed quisquam obcaecat</li>
@@ -40,14 +46,17 @@
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt, error repellendus sed quisquam obcaecat</li>
                 </ul>
             </section>
+            <!-- fine elenco -->
 
+            <!-- inizio tabella -->
             <section>
                 <table cellspacing="0" cellpadding="0">
                     <thead>
                         <tr>
-                            <td class="col1">Lorem ipsum dolor</td>
-                            <td class="col1">Lorem ipsum dolor</td>
-                            <td class="col3">Lorem ipsum dolor</td>
+                            <!-- per la dimensione delle colonne, aggiungo degli ID alle celle dell'header per manipolarli con CSS-->
+                            <td id="col1">Lorem ipsum dolor</td>
+                            <td id="col1">Lorem ipsum dolor</td>
+                            <td id="col3">Lorem ipsum dolor</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -69,12 +78,27 @@
                     </tbody>
                 </table>
             </section>
+            <!-- fine tabella -->
 
+            <!-- inizio testo post-tabella -->
             <section>
                 <div>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente pariatur suscipit quam necessitatibus, doloremque consectetur, earum quisquam aliquam at repudiandae, eligendi labore. Omnis qui exercitationem adipisci voluptate non, facere officia! <span class="highlight">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam voluptatum repudiandae debitis</span> atque minima, amet eum rem incidunt accusantium placeat deserunt quae laborum, optio quam, tempore numquam? Blanditiis, aut?
                 </div>
             </section>
+            <!-- fine testo post-tabella -->
+
+            <!-- inizio sezione recommended -->
+            <section id="recommended">
+                <h3>Potrebbero Interessarti</h3>
+                <div id="rec1">
+                    Lorem ipsum dolor
+                </div>
+                <div id="rec2">
+                    Lorem ipsum dolor
+                </div>
+            </section>
+            <!-- fine sezione recommended -->
         </div>
     </main>
 </body>

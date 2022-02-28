@@ -1,30 +1,24 @@
-/* il classico stratagemma */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* metto uno sfondo all'header */
 header div {
     background-color: #4ea0ff;
     background-image: url('../img/pattern.png');
     background-size: 35%;
 }
 
-/* specifico un margine all'header per posizionarlo meglio */
 #logo {
     width: 12em;
     margin: 2em 1em 1em;
 }
 
-/* questo container ci serve per dare un margine a tutto il contenuto e sarà
-   l'unica cosa da modificare per ottenere il layout bonus dell'esercizio */
 .container {
-    margin: 1%;
+    margin: 1% 15% 1%;
 }
 
-/* questa regola ci serve per lasciare spazio verticale tra le sezioni del main */
 .container section {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -50,8 +44,6 @@ a {
     color: grey;
 }
 
-/* questa regola ci serve per lasciare un margine sopra e sotto al div che contiene le prime due immagini e la didascalia
-   oltre al margine impostiamo la dimensione della didascalia */
 .pics {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -63,8 +55,6 @@ a {
     background-color: yellow;
 }
 
-/* avendo azzerato il magine per tutti gli elementi all'inizio, dobbiamo rimetterlo per i list item,
-   altrimenti non si vedono i pallini */
 li {
     margin-left: 1em;
 }
@@ -82,7 +72,6 @@ thead {
     width: 20%;
 }
 
-/* lo pseudoselettore nth-of-type l'ho imparato durante il fundamentals camp */
 tbody > tr:nth-of-type(odd) {
  background-color: #b1e5f2;
 }
@@ -104,10 +93,8 @@ tbody > tr:nth-of-type(odd) {
 
 #rec1 {
     background-image: url(../img/monitor.jpg);
-    background-size: contain;
 }
 
 #rec2 {
     background-image: url(../img/graph.jpg);
-    background-size: contain;
 }
