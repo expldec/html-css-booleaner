@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header div {
+    background-color: #4ea0ff;
+    background-image: url('../img/pattern.png');
+    background-size: 35%;
+}
+
+#logo {
+    width: 12em;
+    margin: 2em 1em 1em;
+}
+
+main h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #4ea0ff;
+}
+
+.article-author {
+    font-size: 1.2em;
+}
